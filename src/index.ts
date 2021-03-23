@@ -17,6 +17,7 @@ const linkedList = new LinkedList();
 linkedList.add(500);
 linkedList.add(-100);
 linkedList.add(300);
+linkedList.add(-10);
 
 const sorter = new Sorter(linkedList);
 sorter.bubbleSort();
